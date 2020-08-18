@@ -4,6 +4,7 @@
   "description": "ENSE2020_Assignment",
   "main": "index.js",
   "scripts": {
+    "test": "mocha --reporter list",
     "start": "node index.js"
   },
   "repository": {
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/kykim102/WildLamb#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "request": "^2.88.2"
   }
 }
