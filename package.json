@@ -1,0 +1,22 @@
+{
+  "name": "wildlamb",
+  "version": "1.0.0",
+  "description": "ENSE2020_Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kykim102/WildLamb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kykim102/WildLamb/issues"
+  },
+  "homepage": "https://github.com/kykim102/WildLamb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
