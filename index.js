@@ -8,5 +8,5 @@ app.listen(PORT, () => {
 });
 
 app.get('/', function(req, res){
-  res.send("Hello world!");
+  res.send({ text: 'This is testing' });
 })
